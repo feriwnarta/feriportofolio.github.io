@@ -1,0 +1,322 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Navbar */
+#header .navbar-nav a{
+    color: white;
+}
+
+#header a:hover {
+    color: yellow;
+}
+
+.navbar {
+    background-color: #0c5b8f;
+}
+
+.navbar .nav-link {
+    margin: 0px 20px 0px 0px;
+}
+/* Akhir Navbar */
+
+.jumbotron {
+    margin-bottom: 2rem;
+    height: 80vh;
+    background-color: #0c5b8f;
+    border-radius: .3rem;
+}
+
+/* Hero */
+.animasi{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    padding-top: 150px;
+}
+
+.hero h2 {
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 24px;
+}
+
+.hero .jumbotron img {
+    margin-top: 20px;
+}
+
+.btn-join {
+    margin-top: 30px;
+    height: 45px;
+    width: 150px;
+    font-size: 26px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    border: 1px solid mediumpurple;
+    border-radius: 50px;
+    display: inline-block;
+    padding-left: 47px;
+    background-color: mediumpurple;
+    transition: 0.3s ease;
+}
+
+.btn-join a {
+    color: white;
+    text-decoration: none;
+}
+
+.container .btn-join:hover {    
+    background: rgb(79, 142, 145);
+    border-color: rgb(79, 142, 145);
+}
+
+/* btn join 2 */
+.btn-join-2{
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    padding-left: 47px;
+    transition: 0.3s ease;
+}
+
+.btn-join-2 a {
+    color: white;
+    text-decoration: none;
+}
+/* Akhir hero */
+
+/* media query untuk hp */
+@media screen and (max-width: 768px) {
+    .jumbotron {
+        margin-bottom: 2rem;
+        height: 100vh;
+        background-color: #0c5b8f;
+        width: 100%;    
+    }
+
+    .hero h1{
+        margin-top: 5%;
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .hero h2 {
+        margin-top: -0.2%;
+        text-align: center;
+    }
+
+    .hero-image {
+        width: 90%;
+        position: absolute; 
+        top: 8%;
+    }
+
+    .hero-jumbotron {
+        position: absolute;
+        top: 25%;
+    }
+
+}
+
+/* tablet */
+/* @media screen and (max-width: 991px) {
+    .hero-image {
+        width: 90%;
+        position: absolute; 
+        top: 8%;
+    }
+
+    .hero-jumbotron {
+        position: absolute;
+        top: 50%;
+    }
+
+    .jumbotron {
+        width: 100%;
+    }
+} */
+
+/* tablet 1024*/
+/* @media screen and (max-width: 1024px) {
+    .jumbotron {
+        width: 100%;
+        height: 40%;
+    }
+} */
+
+
+/* tablet */
+/* @media screen and (max-width: 768px) {
+    .hero-image {
+        width: 80%;
+        position: absolute; 
+        left: 10%;
+        top: 2%;
+    }
+
+    .hero-jumbotron {
+        width: 100%;
+        position: absolute;
+        top: 25%;
+    }
+
+    .hero h1{
+        margin-top: 18%;
+        font-size: 48px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .hero h2 {
+        margin-top: 5%;
+        text-align: center;
+    }
+} */
+
+/* 1024 */
+/* @media screen and (min-width: 1024px) {
+    .jumbotron {
+        margin-bottom: 2rem;
+        height: 45vh;
+        background-color: #0c5b8f;
+        border-radius: .3rem;
+    }
+} */
+
+/* akhir media query */
+
+/* awal about section */
+.about h2 {
+    margin-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#0c5b8f;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.about hr {
+    width: 90px;
+    margin: auto;
+    margin-bottom: 40px;
+    height: 3px;
+    color: blue;
+}
+
+.about p {
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+/* akhir About Section */
+
+/* service section */
+.services h2{
+    font-family: 'Courier New', Courier, monospace;
+    color:#0c5b8f;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.services hr {
+    width: 90px;
+    margin: auto;
+    margin-bottom: 40px;
+    height: 3px;
+    color: blue;
+}
+
+.services p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.services .row {
+    margin-top: 50px;
+}
+/* akhir service */
+
+/* awal portofolio */
+.portofolio h2 {
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#0c5b8f;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.portofolio hr {
+    width: 90px;
+    margin: auto;
+    margin-bottom: 40px;
+    height: 3px;
+    color: blue;
+}
+
+.carousel-inner{
+    height: 500px;
+}
+
+.item, img{
+    height: 100% !important;
+    width:  100% !important;
+}
+
+.portofolio .row {
+    margin-bottom: 40px;
+}
+/* akhir portofolio */
+
+/* kontak sction */
+.contact h2 {
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#0c5b8f;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.contact hr {
+    width: 90px;
+    margin: auto;
+    margin-bottom: 40px;
+    height: 3px;
+    color: blue;
+}
+
+.contact h4 {
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
